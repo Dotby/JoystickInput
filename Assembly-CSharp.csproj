@@ -598,8 +598,15 @@
      <Compile Include="Assets\PlayMaker\Actions\iTween\iTweenShakeScale.cs" />
      <Compile Include="Assets\PlayMaker\Actions\iTween\iTweenStop.cs" />
      <Compile Include="Assets\PlayMaker\Include\iTweenFSMEvents.cs" />
+     <Compile Include="Assets\Reporter\MultiKeyDictionary.cs" />
+     <Compile Include="Assets\Reporter\Reporter.cs" />
+     <Compile Include="Assets\Reporter\ReporterGUI.cs" />
+     <Compile Include="Assets\Reporter\ReporterMessageReceiver.cs" />
+     <Compile Include="Assets\Reporter\Test\Rotate.cs" />
+     <Compile Include="Assets\Reporter\Test\TestReporter.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
      <None Include="Assets\PlayMaker\Readme.txt" />
+     <None Include="Assets\StreamingAssets\build_info.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
  <Reference Include="UnityEngine.UI">
