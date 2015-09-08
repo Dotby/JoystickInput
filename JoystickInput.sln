@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{79C2562C-5C4E-82E7-C612-BAA737596B50}") = "JoystickInput", "Assembly-CSharp.csproj", "{8B7CB7E5-9B0E-0DC9-78F8-242C604748BC}"
 EndProject
+Project("{79C2562C-5C4E-82E7-C612-BAA737596B50}") = "JoystickInput", "Assembly-CSharp-Editor.csproj", "{24E4C27A-6F61-F211-E368-75DD870221BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{8B7CB7E5-9B0E-0DC9-78F8-242C604748BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B7CB7E5-9B0E-0DC9-78F8-242C604748BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B7CB7E5-9B0E-0DC9-78F8-242C604748BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E4C27A-6F61-F211-E368-75DD870221BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E4C27A-6F61-F211-E368-75DD870221BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E4C27A-6F61-F211-E368-75DD870221BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E4C27A-6F61-F211-E368-75DD870221BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+							GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -36,4 +42,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
