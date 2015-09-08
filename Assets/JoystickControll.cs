@@ -37,7 +37,6 @@ public class JoystickControll : MonoBehaviour {
 		}
 
 		_tmp += "\niOS J: " + _iosFound.ToString();
-
 		_tmp += "\nVertival: " + Input.GetAxis("Horizontal");
 		_tmp += "\nHorizontal: " + Input.GetAxis("Vertical");
 
@@ -50,6 +49,7 @@ public class JoystickControll : MonoBehaviour {
 
 			if (!_connected && _controllers.Length > 0){
 				_connected = true;
+				_controllers[0].StartsWith("[basic,");
 			}
 			else if (_connected == true && _controllers.Length == 0){
 				_connected = false;
